@@ -1,0 +1,110 @@
+section {
+    font-family: sans-serif;
+    background: url(assets/main-bg.jpg);
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 1441.55px;
+    height: 960.14px;
+    left: -1.55px;
+    top: 0.11px;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -0.03%;
+    bottom: 90.66%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav .logo {
+    position: absolute;
+    width: 77px;
+    height: 33px;
+    left: 107px;
+    top: 28.7px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+nav .menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* cara agar space nya bisa diatur? dan kok saya gabisa ubah color nya yah */
+}
+
+nav .user ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.banner .wrapper h1 {
+    position: absolute;
+    height: 73.12px;
+    left: 9.22%;
+    right: 10.47%;
+    top: calc(40% - 73.12px/2 - 130.06px);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffff;
+    /* cara agar di tengah-tengah background, saya masih belum begitu paham tentang padding,
+    margin, top, bottom, dll */
+}
+
+.banner .wrapper p {
+    position: absolute;
+    height: 73.12px;
+    left: 9.22%;
+    right: 10.47%;
+    top: 40%;
+    font-family: arial;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ffff;
+    letter-spacing: 5px;
+}
+
+.banner .wrapper button {
+    position: absolute;
+    left: 40.83%;
+    right: 41.09%;
+    top: 55.07%;
+    bottom: 38.68%;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}
+
+.story {
+    position: absolute;
+    left: 47.66%;
+    right: 47.61%;
+    top: 88%;
+    bottom: 6.4%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
